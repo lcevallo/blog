@@ -82,3 +82,7 @@ Create the application key:
 php artisan key:generate
 Start the laravel server:
 php artisan serve
+
+php artisan make:factory CursoFactory --model=Curso
+
+php artisan migrate:fresh --seed
